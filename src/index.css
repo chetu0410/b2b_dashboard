@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./assets/css/styles.css);
+@import url(./assets/css/animations.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:
+        "IBM Plex Sans KR",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Roboto",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Fira Sans",
+        "Droid Sans",
+        "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+table {
+    white-space: nowrap;
+}
+
+@layer components {
+    .f-center {
+        @apply flex items-center justify-center;
+    }
+
+    .btn {
+        @apply flex items-center justify-center gap-2 hover:bg-primary-light font-medium rounded-full text-base text-gray-800 px-3 py-1.5 transition-all;
+    }
+
+    .btn-contained {
+        @apply !bg-primary hover:!bg-primary-dark;
+    }
+}

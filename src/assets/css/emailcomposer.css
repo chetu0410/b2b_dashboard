@@ -1,0 +1,9 @@
+.custom-quill-editor .ql-editor {
+    font-size: 0.9rem; /* Adjust the font size to your desired size */
+    min-height: 100px;
+    max-height: 350px;
+}
+
+.custom-quill-editor:focus .ql-editor:focus {
+    border-color: rgb(96 165 250);
+}

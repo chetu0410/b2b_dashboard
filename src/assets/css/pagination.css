@@ -1,0 +1,26 @@
+/* .rc-pagination {} */
+
+.rc-pagination .rc-pagination-item {
+    border-radius: 5px;
+    border-color: #dfe3e8;
+}
+
+.rc-pagination .rc-pagination-item:hover a,
+.rc-pagination .rc-pagination-item:focus a {
+    color: #000000;
+}
+
+.rc-pagination .rc-pagination-item.rc-pagination-item-active {
+    border-color: #2466da;
+}
+
+.rc-pagination .rc-pagination-item.rc-pagination-item-active a {
+    color: #2466da;
+    font-weight: 600;
+}
+
+.rc-pagination .rc-pagination-disabled {
+    background-color: #919eab4d;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}

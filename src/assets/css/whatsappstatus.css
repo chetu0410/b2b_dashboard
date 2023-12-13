@@ -1,0 +1,11 @@
+.whatsapp-tooltip {
+    background-color: #e4f7fc !important; /* WhatsApp message bubble color */
+    border: 1px solid #d3d3d3 !important; /* Border color for the chat bubble */
+    border-radius: 8px !important; /* Border radius for the chat bubble */
+    padding: 8px 12px !important; /* Padding inside the chat bubble */
+    font-size: 14px !important; /* Font size for the text */
+    color: #000 !important; /* Text color */
+    max-width: 400px !important; /* Set your desired maximum width */
+    white-space: pre-line !important; /* Allow the text to wrap */
+    overflow: hidden !important; /* Hide any overflowing content */
+}

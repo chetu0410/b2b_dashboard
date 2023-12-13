@@ -1,0 +1,22 @@
+.image-modal-container .absolute {
+    visibility: hidden;
+}
+
+.image-modal-container:hover .absolute {
+    visibility: visible;
+}
+
+.image-modal-container:hover .container-background {
+    visibility: visible;
+}
+
+.container-background {
+    position: absolute;
+    border-radius: 0.125rem; /* 4px */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+    visibility: hidden;
+}
